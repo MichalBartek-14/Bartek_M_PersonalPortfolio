@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Michal Bartek — GI &amp; Remote Sensing Student Portfolio</title>
+<meta name="description" content="Portfolio of Michal Bartek, an MSc Geo-Information Science student at Wageningen University specializing in remote sensing, GIS and deep learning for earth observation.">
+<meta name="keywords" content="GI portfolio, GIS portfolio, Remote Sensing student, Geo-Information Science, Wageningen University, remote sensing internship, deep learning earth observation, Sentinel imagery, QGIS, ArcGIS, geospatial data science">
+<meta name="author" content="Michal Bartek">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Michal Bartek — GI & Remote Sensing Student">
+<meta property="og:description" content="MSc Geo-Information Science student specializing in remote sensing, GIS and deep learning for earth observation. Exploring internship opportunities.">
+<meta property="og:site_name" content="Michal Bartek Portfolio">
+
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to main content</a>
+
+<!-- ============ NAV ============ -->
+<header class="site-nav" id="siteNav">
+  <div class="nav-inner">
+    <a href="#top" class="nav-logo" aria-label="Michal Bartek, home">
+      <span class="logo-mark" aria-hidden="true">MB</span>
+      <span class="logo-text">Michal Bartek</span>
+    </a>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="navMenu">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav id="navMenu" class="nav-menu">
+      <a href="#about" class="nav-link">About</a>
+      <a href="#skills" class="nav-link">Skills</a>
+      <a href="#projects" class="nav-link">Projects</a>
+      <a href="#domains" class="nav-link">Domains</a>
+      <a href="#education" class="nav-link">Education</a>
+      <a href="#contact" class="nav-link nav-cta">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="top">
+    <div class="hero-grid" aria-hidden="true"></div>
+    <div class="hero-scanline" aria-hidden="true"></div>
+
+    <div class="hero-content">
+      <p class="hero-eyebrow">Geo-Information Science &middot; Wageningen University</p>
+      <h1 class="hero-name">Michal Bartek</h1>
+      <p class="hero-role">GI &amp; Remote Sensing Student</p>
+      <p class="hero-tagline">Turning satellite pixels into spatial insight.</p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="#contact" class="btn btn-ghost">Get in Touch</a>
+      </div>
+    </div>
+
+    <div class="hud" id="hud" aria-hidden="true">
+      <span class="hud-label">CURSOR POSITION</span>
+      <span class="hud-coords" id="hudCoords">51.98241&deg; N&nbsp;&nbsp;5.66391&deg; E</span>
+      <span class="hud-sub">WAGENINGEN, NL</span>
+    </div>
+
+    <a href="#about" class="scroll-cue" aria-label="Scroll to About section">
+      <span></span>
+    </a>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section class="section" id="about">
+    <div class="section-inner about-grid">
+      <div class="about-text">
+        <p class="eyebrow">01 &mdash; About</p>
+        <h2 class="section-title">A spatial thinker, trained on pixels and polygons.</h2>
+        <p class="body-lg">
+          I'm an MSc student in Geo-Information Science at Wageningen University &amp; Research, with a background in Spatial Planning from the University of Groningen. My work centers on using satellite imagery and deep learning to understand how landscapes change &mdash; from forest disturbance in Sentinel time series to flood extents and urban growth.
+        </p>
+        <p class="body-lg">
+          I'm currently looking for an internship where I can apply these skills to real-world earth observation problems, and bring the same curiosity that took me from spatial planning to spatial data science.
+        </p>
+      </div>
+
+      <aside class="about-card">
+        <div class="about-card-row">
+          <span class="about-card-label">Currently</span>
+          <span class="about-card-value">MSc Geo-Information Science, WUR</span>
+        </div>
+        <div class="about-card-row">
+          <span class="about-card-label">Program</span>
+          <span class="about-card-value">2024 &ndash; 2026</span>
+        </div>
+        <div class="about-card-row">
+          <span class="about-card-label">Background</span>
+          <span class="about-card-value">BSc Spatial Planning &amp; Design, Groningen</span>
+        </div>
+        <div class="about-card-row">
+          <span class="about-card-label">Based in</span>
+          <span class="about-card-value">Wageningen, Netherlands</span>
+        </div>
+        <div class="about-card-row">
+          <span class="about-card-label">Looking for</span>
+          <span class="about-card-value">GIS / Remote Sensing internship</span>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <!-- ============ SKILLS ============ -->
+  <section class="section section-alt" id="skills">
+    <div class="section-inner">
+      <p class="eyebrow">02 &mdash; Skills</p>
+      <h2 class="section-title">Tools of the trade.</h2>
+
+      <div class="skills-grid">
+
+        <div class="skill-card">
+          <div class="skill-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="3.2"/><path d="M12 2v3M12 19v3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M2 12h3M19 12h3M4.9 19.1L7 17M17 7l2.1-2.1"/></svg>
+          </div>
+          <h3 class="skill-title">AI &amp; Deep Learning</h3>
+          <ul class="skill-list">
+            <li>Computer vision: change detection, segmentation, classification</li>
+            <li>Model training with TensorFlow &amp; PyTorch</li>
+            <li>Fine-tuning pretrained, state-of-the-art models</li>
+          </ul>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 21c4-4.5 7-8.2 7-12a7 7 0 1 0-14 0c0 3.8 3 7.5 7 12Z"/><circle cx="12" cy="9" r="2.4"/></svg>
+          </div>
+          <h3 class="skill-title">GIS Software</h3>
+          <ul class="skill-list">
+            <li>QGIS</li>
+            <li>ArcGIS Pro</li>
+            <li>Google Earth Engine</li>
+          </ul>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="m8 9-4 3 4 3M16 9l4 3-4 3M13 5l-2 14"/></svg>
+          </div>
+          <h3 class="skill-title">Programming</h3>
+          <ul class="skill-list">
+            <li>Python &mdash; rasterio, geopandas, numpy, gdal</li>
+            <li>R &mdash; statistics &amp; data analysis</li>
+          </ul>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 15a8 8 0 0 1 15-4M20 9v6h-6"/><path d="M13 3 3 13l4 4L17 7l-4-4Z"/></svg>
+          </div>
+          <h3 class="skill-title">Remote Sensing Tools</h3>
+          <ul class="skill-list">
+            <li>Erdas Imagine</li>
+            <li>CloudCompare</li>
+            <li>Point cloud &amp; LiDAR processing</li>
+          </ul>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+          </div>
+          <h3 class="skill-title">Other</h3>
+          <ul class="skill-list">
+            <li>SketchUp</li>
+            <li>Microsoft Office</li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="data-sources">
+        <span class="data-sources-label">Data sources I've worked with</span>
+        <div class="tag-row">
+          <span class="tag">Landsat</span>
+          <span class="tag">MODIS</span>
+          <span class="tag">Sentinel-1</span>
+          <span class="tag">Sentinel-2</span>
+          <span class="tag">Terrestrial LiDAR</span>
+          <span class="tag">Radar</span>
+          <span class="tag">UAV Imagery</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PROJECTS ============ -->
+  <section class="section" id="projects">
+    <div class="section-inner">
+      <p class="eyebrow">03 &mdash; Projects</p>
+      <h2 class="section-title">Selected work.</h2>
+      <p class="section-lead">A mix of thesis research, coursework and applied collaborations &mdash; spanning deep learning, radar, and 3D point clouds.</p>
+
+      <div class="projects-grid">
+
+        <!-- Project 1: Thesis -->
+        <article class="project-card project-card-featured">
+          <div class="project-visual" aria-hidden="true">
+            <svg viewBox="0 0 400 240" preserveAspectRatio="xMidYMid slice">
+              <rect width="400" height="240" fill="#1F4A42"/>
+              <g opacity="0.9">
+                <polygon points="0,240 60,150 140,190 200,120 260,170 320,110 400,160 400,240" fill="#4B7355"/>
+                <polygon points="40,240 90,180 150,210 210,160 270,200 340,150 400,190 400,240" fill="#345A44" opacity="0.8"/>
+              </g>
+              <polygon points="120,150 175,110 230,140 205,190 145,195" fill="#C1502E" opacity="0.85"/>
+              <polygon points="150,160 190,140 210,170 175,185" fill="#E08A5E" opacity="0.9"/>
+              <g stroke="#D8B26B" stroke-width="0.6" opacity="0.35">
+                <line x1="0" y1="40" x2="400" y2="40"/><line x1="0" y1="80" x2="400" y2="80"/>
+                <line x1="80" y1="0" x2="80" y2="240"/><line x1="200" y1="0" x2="200" y2="240"/><line x1="320" y1="0" x2="320" y2="240"/>
+              </g>
+            </svg>
+          </div>
+          <div class="project-body">
+            <p class="project-eyebrow">Thesis &middot; Deep Learning</p>
+            <h3 class="project-title">Forest Disturbance Driver Classification</h3>
+            <p class="project-desc">A year-long end-to-end project: processing raw forestry records, researching disturbance domains, and training a ResUNet model to classify forest disturbance drivers across EU forests using Sentinel-1/2 time series.</p>
+            <div class="tag-row">
+              <span class="tag tag-sm">Sentinel-1/2</span>
+              <span class="tag tag-sm">ResUNet</span>
+              <span class="tag tag-sm">PyTorch</span>
+              <span class="tag tag-sm">Python</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 2: Root radar -->
+        <article class="project-card">
+          <div class="project-visual" aria-hidden="true">
+            <svg viewBox="0 0 400 240" preserveAspectRatio="xMidYMid slice">
+              <rect width="400" height="240" fill="#16302B"/>
+              <g stroke="#3E7C8C" stroke-width="1.2" fill="none" opacity="0.55">
+                <path d="M-20,260 A180,180 0 0 1 220,20"/>
+                <path d="M-60,260 A230,230 0 0 1 270,-30"/>
+                <path d="M20,260 A130,130 0 0 1 170,70"/>
+              </g>
+              <g fill="#D8B26B">
+                <circle cx="90" cy="160" r="3"/><circle cx="120" cy="140" r="2.4"/><circle cx="150" cy="170" r="3.2"/>
+                <circle cx="175" cy="120" r="2"/><circle cx="200" cy="150" r="2.8"/><circle cx="230" cy="110" r="2.2"/>
+                <circle cx="110" cy="190" r="2.4"/><circle cx="250" cy="160" r="3"/><circle cx="60" cy="130" r="2"/>
+              </g>
+              <path d="M90,160 Q130,120 175,120 T230,110" stroke="#C1502E" stroke-width="1.4" fill="none" opacity="0.8"/>
+            </svg>
+          </div>
+          <div class="project-body">
+            <p class="project-eyebrow">Integration Course &middot; Sweco &amp; Gemeente Amsterdam</p>
+            <h3 class="project-title">Subsurface Root Detection with GPR</h3>
+            <p class="project-desc">Explored ground-penetrating radar to detect tree roots beneath Amsterdam streets, using point cloud clustering and root object reconstruction.</p>
+            <div class="tag-row">
+              <span class="tag tag-sm">GPR</span>
+              <span class="tag tag-sm">Point Clouds</span>
+              <span class="tag tag-sm">CloudCompare</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 3: NDWI flood -->
+        <article class="project-card">
+          <div class="project-visual" aria-hidden="true">
+            <svg viewBox="0 0 400 240" preserveAspectRatio="xMidYMid slice">
+              <defs>
+                <linearGradient id="waterGrad" x1="0" y1="0" x2="0" y2="1">
+                  <stop offset="0%" stop-color="#2E5F66"/>
+                  <stop offset="100%" stop-color="#3E7C8C"/>
+                </linearGradient>
+              </defs>
+              <rect width="400" height="240" fill="#D8B26B" opacity="0.25"/>
+              <rect width="400" height="240" fill="#4B7355" opacity="0.4"/>
+              <path d="M0,150 C60,120 100,180 160,140 C220,100 260,160 320,130 C360,110 380,140 400,120 L400,240 L0,240 Z" fill="url(#waterGrad)"/>
+              <path d="M0,190 C80,170 140,210 220,180 C280,160 340,190 400,170 L400,240 L0,240 Z" fill="#255159" opacity="0.85"/>
+            </svg>
+          </div>
+          <div class="project-body">
+            <p class="project-eyebrow">Independent Analysis &middot; NDWI</p>
+            <h3 class="project-title">Flood Mapping Across Central Europe</h3>
+            <p class="project-desc">Produced NDWI-based flood visualizations from Copernicus data for the fall 2024 Central European floods and the 2021 Limburg floods, with a project group.</p>
+            <div class="tag-row">
+              <span class="tag tag-sm">NDWI</span>
+              <span class="tag tag-sm">Copernicus</span>
+              <span class="tag tag-sm">Python</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 4: 3D LiDAR -->
+        <article class="project-card">
+          <div class="project-visual" aria-hidden="true">
+            <svg viewBox="0 0 400 240" preserveAspectRatio="xMidYMid slice">
+              <rect width="400" height="240" fill="#F7F5EF"/>
+              <g stroke="#B9C4B4" stroke-width="0.6">
+                <line x1="0" y1="200" x2="400" y2="200"/><line x1="0" y1="160" x2="400" y2="160"/>
+              </g>
+              <g>
+                <polygon points="60,200 60,140 100,120 100,180" fill="#4B7355"/>
+                <polygon points="60,140 100,120 130,135 90,155" fill="#5F8A6D"/>
+                <polygon points="130,200 130,110 175,90 175,180" fill="#345A44"/>
+                <polygon points="130,110 175,90 205,105 160,125" fill="#4B7355"/>
+                <polygon points="210,200 210,150 245,132 245,182" fill="#4B7355"/>
+                <polygon points="210,150 245,132 270,145 235,163" fill="#5F8A6D"/>
+                <polygon points="280,200 280,125 330,100 330,175" fill="#16302B"/>
+                <polygon points="280,125 330,100 365,118 315,143" fill="#1F4A42"/>
+              </g>
+            </svg>
+          </div>
+          <div class="project-body">
+            <p class="project-eyebrow">Advanced Remote Sensing &middot; Groningen</p>
+            <h3 class="project-title">3D Urban LiDAR Analysis</h3>
+            <p class="project-desc">Built an interactive 3D map of building heights in Wageningen from DEM/DSM data, and used AHN LiDAR scans to assess change in urban tree greenery on Zernike Campus.</p>
+            <div class="tag-row">
+              <span class="tag tag-sm">LiDAR (AHN)</span>
+              <span class="tag tag-sm">3D Visualization</span>
+              <span class="tag tag-sm">Python</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 5: Energy/data science -->
+        <article class="project-card">
+          <div class="project-visual" aria-hidden="true">
+            <svg viewBox="0 0 400 240" preserveAspectRatio="xMidYMid slice">
+              <rect width="400" height="240" fill="#EEE9DB"/>
+              <g>
+                <rect x="30" y="30" width="60" height="60" fill="#D8B26B"/>
+                <rect x="95" y="30" width="60" height="60" fill="#C1502E" opacity="0.85"/>
+                <rect x="160" y="30" width="60" height="60" fill="#4B7355"/>
+                <rect x="30" y="95" width="60" height="60" fill="#4B7355" opacity="0.6"/>
+                <rect x="95" y="95" width="60" height="60" fill="#D8B26B" opacity="0.7"/>
+                <rect x="160" y="95" width="60" height="60" fill="#3E7C8C"/>
+                <rect x="30" y="160" width="60" height="55" fill="#3E7C8C" opacity="0.5"/>
+                <rect x="95" y="160" width="60" height="55" fill="#C1502E" opacity="0.5"/>
+                <rect x="160" y="160" width="60" height="55" fill="#4B7355" opacity="0.85"/>
+              </g>
+              <g stroke="#F7F5EF" stroke-width="2">
+                <line x1="30" y1="30" x2="220" y2="30"/><line x1="30" y1="95" x2="220" y2="95"/>
+                <line x1="30" y1="160" x2="220" y2="160"/><line x1="30" y1="215" x2="220" y2="215"/>
+                <line x1="30" y1="30" x2="30" y2="215"/><line x1="95" y1="30" x2="95" y2="215"/>
+                <line x1="160" y1="30" x2="160" y2="215"/><line x1="220" y1="30" x2="220" y2="215"/>
+              </g>
+            </svg>
+          </div>
+          <div class="project-body">
+            <p class="project-eyebrow">Data Science Minor &middot; Groningen</p>
+            <h3 class="project-title">Energy Sector Customer Analysis</h3>
+            <p class="project-desc">Analyzed a French industrial building database and regional energy-label data to identify potential customers for a client in the energy sector.</p>
+            <div class="tag-row">
+              <span class="tag tag-sm">Python</span>
+              <span class="tag tag-sm">R</span>
+              <span class="tag tag-sm">Data Analysis</span>
+            </div>
+          </div>
+        </article>
+
+      </div>
+
+      <div class="projects-more">
+        <p>More coursework &amp; code on GitHub.</p>
+        <a href="https://github.com/MichalBartek-14" target="_blank" rel="noopener" class="btn btn-outline">
+          Visit GitHub Profile
+          <svg viewBox="0 0 16 16" width="14" height="14" fill="currentColor" aria-hidden="true"><path d="M6 3.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 .5.5v5a.5.5 0 0 1-1 0V4.7L4.85 10.85a.5.5 0 1 1-.7-.7L10.3 4H6.5a.5.5 0 0 1-.5-.5Z"/><path d="M4 5a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-2.5a.5.5 0 0 0-1 0V12H4V6h2.5a.5.5 0 0 0 0-1H4Z"/></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ DOMAINS ============ -->
+  <section class="section section-alt" id="domains">
+    <div class="section-inner">
+      <p class="eyebrow">04 &mdash; Domains</p>
+      <h2 class="section-title">Where spatial data is put to work.</h2>
+      <p class="section-lead">Coursework and projects have taken me across these application areas &mdash; with a background in Spatial Planning shaping how I approach the urban ones.</p>
+
+      <div class="domains-grid">
+        <div class="domain-block">
+          <h3 class="domain-title">Urban</h3>
+          <p class="domain-desc">Building height &amp; roof assessment, high-voltage powerline mapping, urban heat islands, urban greenery</p>
+        </div>
+        <div class="domain-block">
+          <h3 class="domain-title">Forestry</h3>
+          <p class="domain-desc">Forest loss detection, forest health assessment, disturbance driver classification</p>
+        </div>
+        <div class="domain-block">
+          <h3 class="domain-title">Agriculture</h3>
+          <p class="domain-desc">Soil moisture &amp; wetness assessment, crop health assessment, crop type classification</p>
+        </div>
+        <div class="domain-block">
+          <h3 class="domain-title">Disaster Management</h3>
+          <p class="domain-desc">Flood mapping, wildfire detection, earthquake damage assessment</p>
+        </div>
+        <div class="domain-block">
+          <h3 class="domain-title">Water Management</h3>
+          <p class="domain-desc">Water extent detection, riverbank erosion, drought assessment, groundwater mapping</p>
+        </div>
+        <div class="domain-block">
+          <h3 class="domain-title">Energy</h3>
+          <p class="domain-desc">Wind farm &amp; solar field planning, pipeline monitoring, oil &amp; gas exploration</p>
+        </div>
+        <div class="domain-block">
+          <h3 class="domain-title">Transportation</h3>
+          <p class="domain-desc">Road network planning, rail inspection, navigation support</p>
+        </div>
+        <div class="domain-block">
+          <h3 class="domain-title">Defense &amp; Security</h3>
+          <p class="domain-desc">Border surveillance, threat detection, search &amp; rescue support</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ EDUCATION ============ -->
+  <section class="section" id="education">
+    <div class="section-inner">
+      <p class="eyebrow">05 &mdash; Education</p>
+      <h2 class="section-title">Academic path.</h2>
+
+      <ol class="timeline">
+        <li class="timeline-item">
+          <div class="timeline-dot" aria-hidden="true"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">2024 &ndash; 2026</span>
+            <h3 class="timeline-title">MSc Geo-Information Science</h3>
+            <p class="timeline-place">Wageningen University &amp; Research (WUR)</p>
+            <p class="timeline-desc">Focus on remote sensing, GIS and deep learning for environmental and earth observation applications. Thesis on forest disturbance driver classification using Sentinel-1/2 imagery and a ResUNet model.</p>
+          </div>
+        </li>
+        <li class="timeline-item">
+          <div class="timeline-dot" aria-hidden="true"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">2021 &ndash; 2024</span>
+            <h3 class="timeline-title">BSc Spatial Planning &amp; Design</h3>
+            <p class="timeline-place">University of Groningen</p>
+            <p class="timeline-desc">Minor in Data Science, with additional coursework in Geospatial Data Science &mdash; the foundation for the shift toward geo-information science and remote sensing.</p>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section class="section section-dark" id="contact">
+    <div class="section-inner contact-grid">
+      <div class="contact-intro">
+        <p class="eyebrow eyebrow-light">06 &mdash; Contact</p>
+        <h2 class="section-title section-title-light">Let's connect.</h2>
+        <p class="body-lg contact-lead">
+          Open to GIS and Remote Sensing internship opportunities. Reach out directly, or send a message below.
+        </p>
+
+        <ul class="contact-links">
+          <li>
+            <a href="mailto:michal.bartek@wur.nl">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m4 7 8 6 8-6"/></svg>
+              michal.bartek@wur.nl
+            </a>
+          </li>
+          <li>
+            <a href="tel:+421951001279">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3-8.7A2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .3 2 .7 3a2 2 0 0 1-.4 2.1L8 10.3a16 16 0 0 0 6 6l1.5-1.4a2 2 0 0 1 2.1-.4c1 .4 2 .6 3 .7a2 2 0 0 1 1.4 2.7Z"/></svg>
+              +421 951 001 279
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/michal-bartek-152558177/" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M7 10v7M7 7v.01M12 17v-4.5a2.5 2.5 0 0 1 5 0V17M12 12.5V17"/></svg>
+              LinkedIn
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/MichalBartek-14" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 0 0-1.3-3.2 4.2 4.2 0 0 0-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3 0 0 0-6.2 0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2 0 0 0-.1 3.2A4.6 4.6 0 0 0 4 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21"/></svg>
+              GitHub
+            </a>
+          </li>
+          <li class="contact-location">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M12 21c4-4.5 7-8.2 7-12a7 7 0 1 0-14 0c0 3.8 3 7.5 7 12Z"/><circle cx="12" cy="9" r="2.4"/></svg>
+            Wageningen, Netherlands
+          </li>
+        </ul>
+      </div>
+
+      <form class="contact-form" id="contactForm">
+        <div class="form-row">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required autocomplete="name">
+        </div>
+        <div class="form-row">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required autocomplete="email">
+        </div>
+        <div class="form-row">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+        <p class="form-note" id="formNote">Opens your email client with this message pre-filled.</p>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="section-inner footer-inner">
+    <span>&copy; <span id="year"></span> Michal Bartek</span>
+    <span class="footer-tagline">Built with HTML, CSS &amp; a little geospatial curiosity.</span>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
