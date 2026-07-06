@@ -93,5 +93,3 @@ Both options are free and require no server management, database, or ongoing mai
 ## Browser support
 
 Built with standard, well-supported CSS (Grid, custom properties, `clamp()`) and vanilla JS — works in all current versions of Chrome, Firefox, Safari, and Edge.
-=======
-
